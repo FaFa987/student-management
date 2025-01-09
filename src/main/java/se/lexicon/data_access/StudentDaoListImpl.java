@@ -13,4 +13,24 @@ public class StudentDaoListImpl implements StudentDao{
     public StudentDaoListImpl() {
         this.students = new ArrayList<Student>();
     }
+
+    @Override
+    public Student find(int id) {
+        return null;
+    }
+
+    @Override
+    public Student save(Student student) {
+        return null;
+    }
+
+    @Override
+    public List<Student> findAll() {
+        return List.of();
+    }
+
+    @Override
+    public void delete(int id) {
+
+    }
 }
