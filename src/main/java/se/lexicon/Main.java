@@ -15,7 +15,5 @@ public class Main {
         StudentDao studentDao = context.getBean(StudentDao.class);
 
 
-
-
     }
 }
